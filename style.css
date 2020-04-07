@@ -1,0 +1,130 @@
+/* selektorius all (*) - nurodyti stiliai taikomi visiems elementams:
+naudoti saikingai, nes prailgina tinklapio krovimo laiką. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* baziniai dokumento siliai: dekoratyvios detalės,- naudojamas flex išdėstymo modelis */
+
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  color: #5D636C;
+}
+
+.left-block {
+  width: 10vw;
+  background: #6caee0;
+  height: 100vh;
+}
+
+.right-block {
+  width: 40vw;
+  background: #6caee0;
+  height: 100vh;
+}
+
+/* šiuos stilius galite naudoti formos elementų stilizavimui */
+
+form {
+  display: block;
+  text-align: right;
+  width: 50vw;
+  height: 100vh;
+  padding: 5vh 5vw;
+  font-size: 1em;
+}
+
+fieldset {
+    border-style: none;
+    
+}
+
+legend {
+    text-align: right;
+    font-size: 24px;
+    margin: 8px;
+}
+
+hr {
+    border: 2px solid #6caee0;
+}
+
+label {
+    display: inline-block;
+   
+   
+   
+}
+input, textarea {
+   border: 1px solid lightgray;
+   border-radius: 2px;
+   box-shadow: -1px 1px 5px 1px lightgray;
+    
+    
+}
+
+textarea {
+    width: 300px;
+    margin: 40px 0 0px 30px;
+    height: 70px;
+    
+   
+
+}
+input[type="text"]{
+   width: 300px;
+   padding: 10px;
+   margin: 40px 0px 10px 30px;
+
+}
+
+input[type="email"] {
+    width: 300px;
+   padding: 10px;
+   margin: 40px 0px 10px 30px;
+
+}
+
+input[type="checkbox"] {
+   width: 20px;
+   padding: 10px;
+   margin: 50px 30px 0px 0px;
+   box-shadow: none;
+   
+    
+}
+
+::placeholder {
+    color: #D3D3D3;
+}
+
+img {
+    width: 7%;
+    vertical-align: middle;
+    
+    
+}
+
+label[for="gender"] {
+    padding-right: 30px;
+    padding-left: 130px;
+    
+    vertical-align: bottom;
+}
+
+.gender {
+    text-align: left;
+}
+button {
+    color: white;
+    background-color: #4788C7;
+    padding: 12px;
+    border: none;
+    border-radius: 2px;
+    font-size: 1em;
+    margin-top: 50px;
+}

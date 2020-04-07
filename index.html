@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formos</title>
+  <!-- nuorodos į šriftus ir stilius -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- kairioji mėlyna juosta -->
+  <div class="left-block"></div>
+
+  <form action="">
+      <fieldset>
+          <legend>Contact Us</legend>
+            <hr>
+          
+            <label for="text">Your name</label> 
+            <input type="text" id="text" name="text" value="" placeholder="Your Name"> <br>
+       
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email" value="" placeholder="Your Email"> <br>
+         
+            <label for="message">Your message</label>
+            <textarea id="message" name="message">
+            </textarea><br>
+            <div class="gender">
+                <label for="gender">Your gender</label>
+                <img src="images/male.png">
+                <input type="checkbox" name="checkbox1" value="">
+                <img src="images/female.png">
+                <input type="checkbox" name="checkbox2" value="">
+            </div>
+            <button type="submit">Submit Form</button>
+      </fieldset>
+  </form>
+
+  <!-- dešinioji mėlyna juosta -->
+  <div class="right-block"></div>
+</body>
+</html>
